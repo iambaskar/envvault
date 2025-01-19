@@ -1,2 +1,4 @@
 const encryptFile = require('./encryptEnv');
-encryptFile('./.env', 'sivajivailajilebi');
+const decryptFile = require('./decryptEnv');
+// encryptFile('./.env');
+decryptFile('./.env.enc');
