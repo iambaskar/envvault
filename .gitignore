@@ -1,0 +1,4 @@
+.env
+.env.*
+!.env.enc
+!.env.*.enc
